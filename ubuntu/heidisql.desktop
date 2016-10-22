@@ -1,0 +1,10 @@
+[Desktop Entry]  
+Version=1.0
+Name=Heidisql
+GenericName=Heidisql
+Comment=Heidisql in docker containder
+Exec=/home/ubuntu/apps/heidisql.sh
+Terminal=true
+Icon=heidisql
+Type=Application
+Categories=Development

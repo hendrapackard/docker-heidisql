@@ -16,3 +16,12 @@ docker run -ti --rm \
 -v $HOME/.heidisql/portable_settings.txt:/home/ubuntu/heidisql/portable_settings.txt \
 tagplus5/heidisql
 ```
+
+#### Create launcher for ubuntu
+copy `ubuntu/heidisql.png` to `~/.local/share/icons/`
+
+copy `ubuntu/heidisql.desktop` to `~/.local/share/applications/`
+
+change path to `heidisql.sh` in `~/.local/share/applications/heidisql.desktop`
+
+`Exec=/home/ubuntu/apps/heidisql.sh`
